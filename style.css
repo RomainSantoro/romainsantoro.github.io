@@ -74,6 +74,8 @@ section {
     margin: 0px;
     padding: 0;
     position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
 }
 
     .gallery_product .img-info {
@@ -96,5 +98,11 @@ section {
         -webkit-transition: 2s;
         transition: 2s;
     }
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*	end gallery */
